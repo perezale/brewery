@@ -17,4 +17,5 @@ export class AppController {
         this.threadPool = threadPool;
         this.settings = clusterService.getSettings();
   }
+
 }
