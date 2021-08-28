@@ -1,6 +1,6 @@
 ## Brewery App
 
-App de ejemplo
+App de ejemplo de NestJS
 
 ## Description
 
