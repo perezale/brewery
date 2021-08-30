@@ -11,11 +11,11 @@ export class AppController {
   }
   
   test() {
-    this.client = new OriginSettingClient(client, IngestService.INGEST_ORIGIN);
-    this.httpClient = httpClient;
-    this.clusterService = clusterService;
-    this.threadPool = threadPool;
-    this.settings = clusterService.getSettings();
+     this.client = new OriginSettingClient(client, IngestService.INGEST_ORIGIN);
+     this.httpClient = httpClient;
+     this.clusterService = clusterService;
+     this.threadPool = threadPool;
+     this.settings = clusterService.getSettings();
   }
 
 }
